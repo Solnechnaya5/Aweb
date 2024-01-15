@@ -1,0 +1,114 @@
+.page-wrapper{
+    width: 596px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.about-goods {
+    width: inherit;
+}
+ h1,h2,h3{
+    font-family:'Times New Roman', Times, serif;
+    font-style: 36px;
+    font-weight: 600;
+    font-style: normal;
+line-height: 150%;
+text-align: center;
+}
+.about-goods__title h1{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.about-goods__description,.characteristic-text {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.characteristic-title h2{
+    text-align: left;
+}
+.species-items {
+}
+.species-items__type h2{
+    margin-bottom: 10px;
+    text-align: left;
+}
+.type-items {
+    width: 527px;
+    border: 1px solid black;
+}
+.type-item {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.type-item_img{
+    width: 130px;
+    border-right: 1px solid black;
+}
+.type-item_img img{
+    width: auto;
+    height: 90px;
+    margin: 8px 8px auto 8px;
+}
+.type-item__description li{
+    display: flex;
+    align-items: center;
+    height: 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    list-style: none;
+}
+.type-item__description li::before{
+content: '.';
+font-size: 20px;
+margin: 0 5px 10px 0;
+}
+.type-item__description a{
+    display: block;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    list-style: none;
+    margin: 0 0 10px 70px;
+}
+
+.advantages img{
+    display: block;
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 15px;
+}
+.advantages-title{
+
+}
+.advantages-list {
+}
+.advantages-item p{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+   
+    line-height: 120%;
+    margin-bottom: 25px;
+}
+.advantages-item__title h3{
+  
+}
+.advantages-item__list li{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    
+    line-height: 120%;
+    margin-bottom: 25px;
+}
